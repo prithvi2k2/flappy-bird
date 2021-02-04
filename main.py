@@ -155,7 +155,7 @@ while run:
         score_display(1)
     else:
         SCREEN.blit(message,message_rect)
-        msg_surface = game_font_3.render((" Use Space to start and Jump through the obstacles"), True, (255, 255, 255))
+        msg_surface = game_font_3.render((" Use Space to start and Fly through the obstacles"), True, (255, 255, 255))
         msg_rect = msg_surface.get_rect(center=(150, 390))
         SCREEN.blit(msg_surface, msg_rect)
         high_score = update_score(score,high_score)
